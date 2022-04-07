@@ -24,3 +24,17 @@
 // }
 
 //3rd challange
+
+const scoreDolphins = (97 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 106) / 3;
+const scoreMin = 100;
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= scoreMin) {
+	console.log(`Dolphins won! 🎉`)
+} else if (scoreDolphins < scoreKoalas && scoreKoalas >= scoreMin) {
+	console.log(`Koalas won!🎊`)
+} else if (scoreDolphins === scoreKoalas && scoreDolphins >= scoreMin && scoreKoalas >= scoreMin) {
+	console.log(`Same score.🤝`)
+} else {
+	console.log(`No team wins trophy.👐🏾`)
+}
