@@ -84,13 +84,42 @@
 
 // if, else statements (condition ) {if true, then this will be executed}
 // Value type conversion(manual conversion) and coercion(automatic conversion)
-const inputYear = 1889;
-console.log(typeof String(inputYear));
-console.log(typeof inputYear)
-console.log(String(31), 31)
+// const inputYear = 1889;
+// console.log(typeof String(inputYear));
+// console.log(typeof inputYear)
+// console.log(String(31), 31)
 
-//type coersion
-// + converts into string
-console.log('5' + '7');
-// - converts into integer
-console.log('5' + '5' - '7');
+// //type coersion
+// // + converts into string
+// console.log('5' + '7');
+// // - converts into integer
+// console.log('5' + '5' - '7');
+
+// Booleans
+// FALSY VALUES: 0 , NULL, NuN, undefined, ''. Will become false when trying to convert to Booleans
+// Truthy values(any number or a string that is not empty) will return true when converted into boolean
+
+console.log(Boolean(0));
+console.log(Boolean(5));
+
+// 0 will be converted to false because 0 is a falsy value
+const money = 0;
+
+if (money) {
+	console.log(`don't spend it all`)
+} else {
+	console.log(`get a job`)
+}
+// undefined value is also falsy
+let height;
+if (height) {
+	console.log(`Yay!`)
+} else {
+	console.log(`not defined`)
+}
+
+// === comparison! returns true or false
+// == converts "18" to number 18. Don't use it, it generates bugs.
+// prompt is likle gets.chomp in ruby
+prompt("What's your favourite number ?")
+//logical operators AND &&, || OR, !=opposite
