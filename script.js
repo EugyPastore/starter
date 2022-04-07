@@ -81,3 +81,5 @@ let firstName = "Bob";
 // const eugenia = `I am ${firstName}, ${myAge}`
 // console.log(`Amsterdam`);
 // console.log(typeof `Amsterdam`);
+
+// if, else statements (condition ) {if true, then this will be executed}
