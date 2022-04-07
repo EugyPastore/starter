@@ -4,13 +4,13 @@
 // var similar to let; var was used prior ES6;
 // var is function scoped.
 // ALWAYS DECLARE variables! surname = "Pastore" --> not good!
-var job = "programmer";
-job = "full-stack developer";
+// var job = "programmer";
+// job = "full-stack developer";
 // let is block scoped
-let age = 31;
-age = 32;
+// let age = 31;
+// age = 32;
 // const not supposed to change in the future
-const birthYear = 1990;
+// const birthYear = 1990;
 // const variables cannot be empty! error: missing initializer
 
 // variable conventions
@@ -43,3 +43,36 @@ const birthYear = 1990;
 
 // // null- type of undefined
 // console.log(typeof null)
+
+// Operators - + * / **
+const now = 2022;
+const ageEugenia = now - 1990;
+const ageRima = now - 1964;
+console.log(ageEugenia, ageRima);
+
+console.log(ageEugenia + ageRima);
+console.log(ageEugenia * ageRima);
+
+//concatination
+const firstName = "Eugenia";
+const lastName = "Pastore";
+console.log(firstName + " " + lastName);
+
+//assignment operator =
+let x = 5 + 7;
+console.log(x);
+// reassigning value x = x + 10
+x += 10
+x *= 2
+// x = x + 1
+x++;
+// x= x-1;
+x--;
+console.log(x);
+
+//comparison operators to produce boolean >, <, >=, <=
+console.log(ageEugenia > ageRima)
+const isFullAge = ageEugenia >= 18;
+console.log(isFullAge);
+
+// operators precedence

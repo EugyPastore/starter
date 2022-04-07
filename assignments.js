@@ -1,3 +1,4 @@
+// 1 assignment
 let country = "Latvia";
 let continent = "Europe";
 let population = 1902000;
