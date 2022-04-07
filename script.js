@@ -18,8 +18,8 @@
 // // console.log("Using console.log - builds bridge between script and developer console in the browser ");
 // // console.log(2);
 // // console.log("Eugenia");
-let myAge = 31;
-let firstName = "Bob";
+// let myAge = 31;
+// let firstName = "Bob";
 // // console.log(firstName);
 // // console.log("camelCase, variable name cannot start with number!, but can have underscore and dollar sign. have to be descriptive.")
 
@@ -83,3 +83,14 @@ let firstName = "Bob";
 // console.log(typeof `Amsterdam`);
 
 // if, else statements (condition ) {if true, then this will be executed}
+// Value type conversion(manual conversion) and coercion(automatic conversion)
+const inputYear = 1889;
+console.log(typeof String(inputYear));
+console.log(typeof inputYear)
+console.log(String(31), 31)
+
+//type coersion
+// + converts into string
+console.log('5' + '7');
+// - converts into integer
+console.log('5' + '5' - '7');
