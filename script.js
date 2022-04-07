@@ -18,8 +18,8 @@
 // // console.log("Using console.log - builds bridge between script and developer console in the browser ");
 // // console.log(2);
 // // console.log("Eugenia");
-// // let myAge = 31;
-// // let firstName = "Bob";
+let myAge = 31;
+let firstName = "Bob";
 // // console.log(firstName);
 // // console.log("camelCase, variable name cannot start with number!, but can have underscore and dollar sign. have to be descriptive.")
 
@@ -76,3 +76,8 @@
 // console.log(isFullAge);
 
 // // operators precedence https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+//Template literals
+// const eugenia = `I am ${firstName}, ${myAge}`
+// console.log(`Amsterdam`);
+// console.log(typeof `Amsterdam`);

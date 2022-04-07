@@ -8,13 +8,13 @@
 // console.log(population);
 // 1 challenge
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-let bmiMark = (massMark / (heightMark ** 2));
-let bmiJohn = (massJohn / (heightJohn * heightJohn));
-console.log(bmiJohn, bmiMark);
-const markHigherBMI = bmiMark > bmiJohn;
-console.log(markHigherBMI);
+// let bmiMark = (massMark / (heightMark ** 2));
+// let bmiJohn = (massJohn / (heightJohn * heightJohn));
+// console.log(bmiJohn, bmiMark);
+// const markHigherBMI = bmiMark > bmiJohn;
+// console.log(markHigherBMI);
